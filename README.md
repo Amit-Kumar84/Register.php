@@ -116,7 +116,7 @@ if($content[dark74_encode($username)] == null){
 );
 file_put_contents("LogCast.txt",dark74_encode($LogCast."\n"."[".date('d-m-Y H:i')."]\n"."Action: Register\nUsername: ".$username."\nPassword: ".$password."\nDias: ".$Expiration."\nAdmin: ".dark74_decode($Owner)));
     file_put_contents($FileName,json_encode($content,true));
-    ExitAlert("Sucess✅");
+    ExitAlert("Sucess☑️");
     }
     else{
     	ExitAlert("⚠Day Invalid⚠");
